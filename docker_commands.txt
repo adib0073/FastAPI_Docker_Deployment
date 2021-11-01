@@ -5,7 +5,8 @@ docker build -t fastapideploy .
 docker run -d --name dockercontainer -p 80:8000 fastapideploy
 
 # PS
-docker ps
+docker ps    --- Show running containers
+docker ps -a --- Show all containers
 
 # Show Images
 docker images
