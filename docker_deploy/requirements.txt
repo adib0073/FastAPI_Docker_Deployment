@@ -1,9 +1,8 @@
-fastapi
+fastapi[all]
 matplotlib
 numpy
 pandas
 pydantic
-scikit-learn
+scikit-learn == 1.2.2
 scipy
 seaborn
-"uvicorn[standard]"
